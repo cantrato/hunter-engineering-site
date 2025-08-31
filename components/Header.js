@@ -10,13 +10,13 @@ const Header = () => {
         </div>
         <nav>
           <ul className="flex space-x-4">
-            <li><Link href="/" className="hover:text-link">Home</Link></li>
-            <li><Link href="/about-us" className="hover:text-link">About Us</Link></li>
-            <li><Link href="/services/civil-engineering" className="hover:text-link">Civil Engineering</Link></li>
-            <li><Link href="/services/land-surveying" className="hover:text-link">Land Surveying</Link></li>
-            <li><Link href="/projects/commercial" className="hover:text-link">Commercial Projects</Link></li>
-            <li><Link href="/projects/industrial" className="hover:text-link">Industrial Projects</Link></li>
-            <li><Link href="/contact-us" className="hover:text-link">Contact Us</Link></li>
+            <li><Link href="/" className="hover:text-accent">Home</Link></li>
+            <li><Link href="/about-us" className="hover:text-accent">About Us</Link></li>
+            <li><Link href="/services/civil-engineering" className="hover:text-accent">Civil Engineering</Link></li>
+            <li><Link href="/services/land-surveying" className="hover:text-accent">Land Surveying</Link></li>
+            <li><Link href="/projects/commercial" className="hover:text-accent">Commercial Projects</Link></li>
+            <li><Link href="/projects/industrial" className="hover:text-accent">Industrial Projects</Link></li>
+            <li><Link href="/contact-us" className="hover:text-accent">Contact Us</Link></li>
           </ul>
         </nav>
       </div>

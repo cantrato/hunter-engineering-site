@@ -8,8 +8,7 @@ const Header = () => {
     <header className="bg-primary text-secondary p-4 shadow-lg">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
-          <img src="/assets/logo.png" alt="Hunter Engineering Logo" className="h-10 mr-4" />
-          <h1 className="text-xl font-bold">Hunter Engineering</h1>
+          <img src="/assets/logo.png" alt="Hunter Engineering Logo" className="h-10" />
         </div>
         <nav>
           <ul className="flex space-x-4">

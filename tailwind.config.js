@@ -14,6 +14,9 @@ module.exports = {
         accent: '#CCCCCC',
         link: '#1E90FF',
       },
+      fontFamily: {
+        'helvetica': ['Helvetica Neue', 'sans-serif'],
+      },
     },
   },
   plugins: [],

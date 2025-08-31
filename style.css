@@ -83,6 +83,11 @@ input:focus, textarea:focus {
         padding-left: 1rem;
         padding-right: 1rem;
     }
+/* Header navigation font */
+nav a {
+    font-family: 'Helvetica Neue', sans-serif;
+    text-transform: lowercase;
+}
 /* Dropdown menu styles */
 .dropdown {
     position: relative;

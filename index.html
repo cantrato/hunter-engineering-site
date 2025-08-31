@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hunter Engineering - Civil Engineering and Surveying</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-black text-white">
+    <header class="bg-gray-900 shadow-lg">
+        <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center">
+                <img src="assets/logo.png" alt="Hunter Engineering Logo" class="h-10 mr-4">
+                <h1 class="text-xl font-bold">Hunter Engineering</h1>
+            </div>
+            <ul class="hidden md:flex space-x-6">
+                <li><a href="index.html" class="hover:text-blue-400 transition">Home</a></li>
+                <li><a href="about-us.html" class="hover:text-blue-400 transition">About Us</a></li>
+                <li><a href="services/civil-engineering.html" class="hover:text-blue-400 transition">Civil Engineering</a></li>
+                <li><a href="services/land-surveying.html" class="hover:text-blue-400 transition">Land Surveying</a></li>
+                <li><a href="projects/commercial.html" class="hover:text-blue-400 transition">Commercial Projects</a></li>
+                <li><a href="projects/industrial.html" class="hover:text-blue-400 transition">Industrial Projects</a></li>
+                <li><a href="contact-us.html" class="hover:text-blue-400 transition">Contact Us</a></li>
+            </ul>
+            <button class="md:hidden" id="menu-toggle">
+                <i class="fas fa-bars text-white"></i>
+            </button>
+        </nav>
+        <ul class="md:hidden bg-gray-800 px-4 py-2 space-y-2 hidden" id="mobile-menu">
+            <li><a href="index.html" class="block hover:text-blue-400 transition">Home</a></li>
+            <li><a href="about-us.html" class="block hover:text-blue-400 transition">About Us</a></li>
+            <li><a href="services/civil-engineering.html" class="block hover:text-blue-400 transition">Civil Engineering</a></li>
+            <li><a href="services/land-surveying.html" class="block hover:text-blue-400 transition">Land Surveying</a></li>
+            <li><a href="projects/commercial.html" class="block hover:text-blue-400 transition">Commercial Projects</a></li>
+            <li><a href="projects/industrial.html" class="block hover:text-blue-400 transition">Industrial Projects</a></li>
+            <li><a href="contact-us.html" class="block hover:text-blue-400 transition">Contact Us</a></li>
+        </ul>
+    </header>
+
+    <section id="hero" class="relative h-screen flex items-center justify-center overflow-hidden">
+        <video src="assets/hero.webm" autoplay loop muted class="absolute inset-0 w-full h-full object-cover" id="hero-video"></video>
+        <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+        <div class="relative z-10 text-center px-4">
+            <h2 class="text-4xl md:text-6xl font-bold mb-4">Engineering Excellence</h2>
+            <p class="text-xl md:text-2xl mb-8">Civil Engineering and Land Surveying Services</p>
+            <a href="#featured-projects" class="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-lg text-lg transition">Explore Our Work</a>
+        </div>
+    </section>
+
+    <section id="featured-projects" class="py-16 bg-gray-900">
+        <div class="container mx-auto px-4">
+            <h3 class="text-3xl font-bold text-center mb-12">Featured Projects</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:scale-105 transition transform project-card">
+                    <img src="assets/project1.jpg" alt="Project 1" class="w-full h-48 object-cover rounded mb-4">
+                    <h4 class="text-xl font-semibold mb-2">Commercial Building</h4>
+                    <p class="text-gray-400">Description of the commercial project.</p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:scale-105 transition transform project-card">
+                    <img src="assets/project2.jpg" alt="Project 2" class="w-full h-48 object-cover rounded mb-4">
+                    <h4 class="text-xl font-semibold mb-2">Industrial Facility</h4>
+                    <p class="text-gray-400">Description of the industrial project.</p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:scale-105 transition transform project-card">
+                    <img src="assets/project3.jpg" alt="Project 3" class="w-full h-48 object-cover rounded mb-4">
+                    <h4 class="text-xl font-semibold mb-2">Residential Development</h4>
+                    <p class="text-gray-400">Description of the residential project.</p>
+                </div>
+            </div>
+            <div class="text-center mt-12">
+                <a href="projects/commercial.html" class="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-lg text-lg transition">View All Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="cta" class="py-16 bg-black">
+        <div class="container mx-auto px-4 text-center">
+            <h3 class="text-3xl font-bold mb-4">Ready to Start Your Project?</h3>
+            <p class="text-xl mb-8">Contact us for expert civil engineering and surveying services.</p>
+            <a href="contact-us.html" class="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-lg text-lg transition">Get in Touch</a>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <p>&copy; 2023 Hunter Engineering. All rights reserved.</p>
+                </div>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-gray-400 hover:text-blue-400"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-blue-400"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-blue-400"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <div class="text-gray-400">
+                    <p>Phone: (123) 456-7890 | Email: info@hunterengineers.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button id="back-to-top" class="fixed bottom-4 right-4 bg-blue-600 hover:bg-blue-700 p-3 rounded-full hidden transition">
+        <i class="fas fa-arrow-up text-white"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>

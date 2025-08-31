@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Civil Engineering Services - Hunter Engineering</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="bg-black text-white">
+    <header class="bg-gray-900 shadow-lg">
+        <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center">
+                <img src="../assets/logo.png" alt="Hunter Engineering Logo" class="h-10 mr-4">
+                <h1 class="text-xl font-bold">Hunter Engineering</h1>
+            </div>
+            <ul class="hidden md:flex space-x-6">
+                <li><a href="../index.html" class="hover:text-blue-400 transition">Home</a></li>
+                <li><a href="../about-us.html" class="hover:text-blue-400 transition">About Us</a></li>
+                <li><a href="civil-engineering.html" class="hover:text-blue-400 transition">Civil Engineering</a></li>
+                <li><a href="land-surveying.html" class="hover:text-blue-400 transition">Land Surveying</a></li>
+                <li><a href="../projects/commercial.html" class="hover:text-blue-400 transition">Commercial Projects</a></li>
+                <li><a href="../projects/industrial.html" class="hover:text-blue-400 transition">Industrial Projects</a></li>
+                <li><a href="../contact-us.html" class="hover:text-blue-400 transition">Contact Us</a></li>
+            </ul>
+            <button class="md:hidden" id="menu-toggle">
+                <i class="fas fa-bars text-white"></i>
+            </button>
+        </nav>
+        <ul class="md:hidden bg-gray-800 px-4 py-2 space-y-2 hidden" id="mobile-menu">
+            <li><a href="../index.html" class="block hover:text-blue-400 transition">Home</a></li>
+            <li><a href="../about-us.html" class="block hover:text-blue-400 transition">About Us</a></li>
+            <li><a href="civil-engineering.html" class="block hover:text-blue-400 transition">Civil Engineering</a></li>
+            <li><a href="land-surveying.html" class="block hover:text-blue-400 transition">Land Surveying</a></li>
+            <li><a href="../projects/commercial.html" class="block hover:text-blue-400 transition">Commercial Projects</a></li>
+            <li><a href="../projects/industrial.html" class="block hover:text-blue-400 transition">Industrial Projects</a></li>
+            <li><a href="../contact-us.html" class="block hover:text-blue-400 transition">Contact Us</a></li>
+        </ul>
+    </header>
+
+    <section class="py-16 bg-gray-900">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12 fade-in">Civil Engineering Services</h2>
+            <p class="text-xl text-center mb-12 text-gray-400 fade-in">We provide comprehensive civil engineering solutions for a wide range of projects, ensuring quality, safety, and efficiency.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg fade-in">
+                    <i class="fas fa-drafting-compass text-blue-400 text-3xl mb-4"></i>
+                    <h3 class="text-2xl font-semibold mb-4">Site Planning & Design</h3>
+                    <ul class="list-disc list-inside text-gray-400">
+                        <li>Feasibility studies and site analysis</li>
+                        <li>Master planning and zoning compliance</li>
+                        <li>Environmental impact assessments</li>
+                    </ul>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg fade-in">
+                    <i class="fas fa-building text-blue-400 text-3xl mb-4"></i>
+                    <h3 class="text-2xl font-semibold mb-4">Structural Engineering</h3>
+                    <ul class="list-disc list-inside text-gray-400">
+                        <li>Building design and analysis</li>
+                        <li>Foundation engineering</li>
+                        <li>Retrofitting and rehabilitation</li>
+                    </ul>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg fade-in">
+                    <i class="fas fa-road text-blue-400 text-3xl mb-4"></i>
+                    <h3 class="text-2xl font-semibold mb-4">Transportation Engineering</h3>
+                    <ul class="list-disc list-inside text-gray-400">
+                        <li>Road and highway design</li>
+                        <li>Traffic engineering and safety</li>
+                        <li>Public transit systems</li>
+                    </ul>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg fade-in">
+                    <i class="fas fa-water text-blue-400 text-3xl mb-4"></i>
+                    <h3 class="text-2xl font-semibold mb-4">Water Resources</h3>
+                    <ul class="list-disc list-inside text-gray-400">
+                        <li>Hydrology and hydraulics</li>
+                        <li>Stormwater management</li>
+                        <li>Flood control and drainage</li>
+                    </ul>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg fade-in">
+                    <i class="fas fa-cogs text-blue-400 text-3xl mb-4"></i>
+                    <h3 class="text-2xl font-semibold mb-4">Construction Management</h3>
+                    <ul class="list-disc list-inside text-gray-400">
+                        <li>Project scheduling and coordination</li>
+                        <li>Quality control and assurance</li>
+                        <li>Cost estimation and budgeting</li>
+                    </ul>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg fade-in">
+                    <i class="fas fa-leaf text-blue-400 text-3xl mb-4"></i>
+                    <h3 class="text-2xl font-semibold mb-4">Environmental Engineering</h3>
+                    <ul class="list-disc list-inside text-gray-400">
+                        <li>Environmental remediation</li>
+                        <li>Sustainable design practices</li>
+                        <li>Permitting and compliance</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <p>&copy; 2023 Hunter Engineering. All rights reserved.</p>
+                </div>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-gray-400 hover:text-blue-400"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-blue-400"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-blue-400"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <div class="text-gray-400">
+                    <p>Phone: (123) 456-7890 | Email: info@hunterengineers.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button id="back-to-top" class="fixed bottom-4 right-4 bg-blue-600 hover:bg-blue-700 p-3 rounded-full hidden transition">
+        <i class="fas fa-arrow-up text-white"></i>
+    </button>
+
+    <script src="../script.js"></script>
+</body>
+</html>

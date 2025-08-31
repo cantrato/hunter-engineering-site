@@ -17,7 +17,7 @@ const Header = () => {
             <li><Link href="/services/civil-engineering" className="hover:text-accent">Civil Engineering</Link></li>
             <li><Link href="/services/land-surveying" className="hover:text-accent">Land Surveying</Link></li>
             <div className="relative" onMouseEnter={() => setIsProjectsOpen(true)} onMouseLeave={() => setIsProjectsOpen(false)}>
-              <Link href="#" className="hover:text-accent">Projects</Link>
+              <Link href="/projects/commercial" className="hover:text-accent">Projects</Link>
               {isProjectsOpen && (
                 <ul className="absolute top-full left-0 bg-primary text-secondary shadow-lg rounded mt-1 z-10">
                   <li><Link href="/projects/commercial" className="block px-4 py-2 hover:bg-accent">Commercial</Link></li>

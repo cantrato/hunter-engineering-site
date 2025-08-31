@@ -17,15 +17,15 @@ const Header = () => {
             <li><Link href="/about-us" className="hover:text-accent">About Us</Link></li>
             <li><Link href="/services/civil-engineering" className="hover:text-accent">Civil Engineering</Link></li>
             <li><Link href="/services/land-surveying" className="hover:text-accent">Land Surveying</Link></li>
-            <li className="relative" onMouseEnter={() => setIsProjectsOpen(true)} onMouseLeave={() => setIsProjectsOpen(false)}>
+            <div className="relative" onMouseEnter={() => setIsProjectsOpen(true)} onMouseLeave={() => setIsProjectsOpen(false)}>
               <Link href="#" className="hover:text-accent">Projects</Link>
               {isProjectsOpen && (
-                <ul className="absolute top-full left-0 bg-primary text-secondary shadow-lg rounded mt-1">
+                <ul className="absolute top-full left-0 bg-primary text-secondary shadow-lg rounded mt-1 z-10">
                   <li><Link href="/projects/commercial" className="block px-4 py-2 hover:bg-accent">Commercial</Link></li>
                   <li><Link href="/projects/industrial" className="block px-4 py-2 hover:bg-accent">Industrial</Link></li>
                 </ul>
               )}
-            </li>
+            </div>
             <li><Link href="/contact-us" className="hover:text-accent">Contact Us</Link></li>
           </ul>
         </nav>
